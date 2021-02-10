@@ -9,11 +9,11 @@
   },
   "database": {
     "driver":"mysql",
-    "host": "34.101.69.76",
+    "host": "1.1.1.1",
     "port": "3306",
-    "user": "root",
-    "pass": "root123",
-    "name": "netsoul"
+    "user": "test",
+    "pass": "test123",
+    "name": "database_test"
   },
   "url":{
   },
