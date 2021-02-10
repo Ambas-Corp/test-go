@@ -1,0 +1,24 @@
+{
+  "debug": false ,
+  "server": {
+    "Name": "CardService",
+    "Port": ":8082"
+  },
+  "context":{
+    "timeout":2
+  },
+  "database": {
+    "driver":"mysql",
+    "host": "34.101.69.76",
+    "port": "3306",
+    "user": "root",
+    "pass": "root123",
+    "name": "netsoul"
+  },
+  "url":{
+  },
+  "redis": {
+    "host": "localhost",
+    "port": ":6379"
+  }
+}

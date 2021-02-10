@@ -1,0 +1,14 @@
+syntax = "proto3";
+package service;
+
+message PingRq {
+   	string message	= 1;
+}
+
+message PingRp {
+  	string responseCode      = 1;
+}
+
+service CardHandler {
+    rpc Ping(PingRq) returns (PingRp) {}
+}
